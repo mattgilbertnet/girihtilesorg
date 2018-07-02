@@ -576,14 +576,14 @@ display:none;
 #front-about-ul li:last-child{
   border-bottom: #eee 2px solid;
 }
-.research-content ul{
+.front-content ul{
   list-style:none;
 }
-ul.research-researchtopics{
+ul.posts{
   margin-top:.5em;
   margin-left: 6em;
 }
-ul.research-researchtopics li{
+ul.posts li{
   font-size: 1.75em;
   color: $em-color;
   margin:0;
@@ -591,7 +591,7 @@ ul.research-researchtopics li{
   padding-bottom: 1rem;
   line-height: 1.25em;
 }
-.research-researchtopics li a{
+.posts li a{
   font-weight: normal;
 }
 /* Code
