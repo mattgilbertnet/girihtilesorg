@@ -2,6 +2,7 @@
 layout: post
 date: 2010-05-05 0:01:04 UTC
 title: "GeoPersia&#58; Geometric Tiles"
+description: GeoPersia is a set of geometric tiles of metal and wood made for exploring the infinite possiblities and unique geometric characteristics of these shapes.
 
 contributors:
 - name: Alan Lindsey

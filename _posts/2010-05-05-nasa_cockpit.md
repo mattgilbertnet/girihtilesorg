@@ -2,6 +2,7 @@
 layout: post
 date: 2010-05-05 0:01:03 UTC
 title: "NASA&#58; On Organization of Information, Approach and Early Work"
+description: This paper from NASA shows how a girih-like tiling pattern is used to organize controls in a cockpit engine control panel.
 
 contributors:
 - name: Asaf Degani

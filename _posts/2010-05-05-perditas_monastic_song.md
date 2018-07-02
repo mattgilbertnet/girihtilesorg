@@ -2,6 +2,7 @@
 layout: post
 date: 2010-05-05 0:01:05 UTC
 title: "&quot;Perdita's Monastic Song&quot; Animation"
+description: Matt Gilbert created a never-ending animation that shows the self-similar nature of a particular pattern found in Islamic architecture that uses girih tiles.
 
 contributors:
 - name: Matt Gilbert

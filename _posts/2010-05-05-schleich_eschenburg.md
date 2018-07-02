@@ -2,6 +2,7 @@
 layout: post
 date: 2010-05-05 0:01:02 UTC
 title: "Penrose Tilings in Medieval Islamic Culture"
+description: This paper investigates the feasibility of girih tiles as a medieval construction technique, and studies cases where the architecture doesn't match the pattern.
 
 contributors:
 - name: Benjamin Schleich
