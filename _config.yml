@@ -1,0 +1,7 @@
+markdown: kramdown
+kramdown:
+   input: GFM
+   default_lang: python
+
+plugins:
+  - jekyll-feed
