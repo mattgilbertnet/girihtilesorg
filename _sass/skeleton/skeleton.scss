@@ -704,6 +704,10 @@ a.gallery{
   background: #fff;
   margin: 10px 10px 0 0;
 }
+a.gallery img{
+ max-width: 70px;
+ max-height: 70px;
+}
 
 /*
     Colorbox Core Style:
