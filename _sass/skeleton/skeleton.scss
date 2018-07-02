@@ -113,18 +113,15 @@
   .offset-by-one-half.columns     { margin-left: 52%; }
 
 }
-.researchtopic-content{
+.post-content{
   margin-left: 0;
 }
-.researchtopic-publications,
-.researchtopic-press{
+.post-publications,
+.post-press{
   width: 100%;
   clear:both;
 }
-.researcharea-topic{
-  padding-bottom: 2rem;
-}
-.researchtopic-thumbnail img,
+.post-thumbnail img,
 .carousel-thumbnail img{
   width:100%;
   max-width:300px;

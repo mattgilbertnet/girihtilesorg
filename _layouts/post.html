@@ -2,6 +2,38 @@
 layout: default
 ---
 <article>
-{{ content }}
+
+  {% if page.images or page.audio %}
+  <div class="post-content content five columns">
+  {% else %}
+  <div class="post-content content">
+  {% endif %}
+  
+    {{ content }}
+  </div>
+
+  {% if page.images or page.audio %}
+  <div class="post-imagesandaudio seven columns">
+  {% endif %}
+  
+  {% if page.images %}
+  <div class="post-imagegallery imagegallery ">
+    <h3>{{ site.data.locale.images }}</h3>
+  <ul class="images-container">
+  {% for img in page.images %} 
+    {% assign img_caption = '' %}
+    {% if img.caption %}
+      {% assign img_caption = img.caption %}
+    {% endif %}
+    <li><a class="gallery" data-rel="topic" href="{{ site.url }}/girihtilesorg/images/large/{{ img.filename }}" title="{{ img_caption }}">
+      <img src="{{ site.url }}/girihtilesorg/images/thumbs/{{ img.filename }}" /></a></li>
+  {% endfor %}
+  </ul>
+  </div>
+  {% endif %}
+  
+  {% if page.images or page.audio %}
+  </div>
+  {% endif %}
 </article>
 
